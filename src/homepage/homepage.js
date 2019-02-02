@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './homepage.css';
 
 import NavbarTop from './navbar_top/nt';
+import Video from './video/video';
 import NavbarMid from './navbar_mid/nm';
 import Gallery from './gallery/gallery';
 import Models from './models/models';
@@ -16,6 +17,7 @@ export default class Homepage extends Component {
         return (
             <div>
                 <NavbarTop />
+                <Video/>
                 <NavbarMid />
                 <Gallery />
                 <Models />

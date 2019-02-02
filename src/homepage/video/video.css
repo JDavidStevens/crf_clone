@@ -1,0 +1,33 @@
+
+.video-page{
+    text-align: center;
+}
+.video-h3{
+    color:#db202b;
+    font-weight: 700;
+    margin-top: 9.4vh;
+    font-size: 25.25px;
+}
+
+.video-h2{
+   font-family: Helvetica;
+   font-weight: 800; 
+   font-size: 40px;
+   margin-top: -3.5vh;
+   line-height: 1.1;
+}
+.video-paragraph{
+    color: #666;
+    margin: -2vh 7vw 0 7vw;
+}
+
+.video-button{
+    width: 23vw;
+    height: 11vh;
+    border: none;
+    margin-top: 7.5vh;
+    background-color: #db202b;
+    color: #fff;
+    font-weight: 600;
+    font-family: Helvetica;
+}

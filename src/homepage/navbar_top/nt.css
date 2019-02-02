@@ -11,7 +11,7 @@
 }
 
 .nt-menu{
-    margin: 4.1vh 0 0 1.32vw;
+    margin: 3.7vh 0 0 1.32vw;
     display: flex;
     color: #fff;
     font-family: Arial;
@@ -32,7 +32,7 @@ li{
     display: flex;
     border: solid #fff 1.25px;
     padding: 1vh 2.5vw;
-    margin: -.9vh 0 3vh 1vw;
+    margin: -.6vh 0 3vh 1vw;
     font-size: 13px;
 }
 
