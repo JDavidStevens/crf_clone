@@ -22,12 +22,13 @@
 }
 
 .video-button{
-    width: 23vw;
-    height: 11vh;
+    width: 23.5vw;
+    height: 10.5vh;
     border: none;
     margin-top: 7.5vh;
     background-color: #db202b;
     color: #fff;
     font-weight: 600;
     font-family: Helvetica;
+    font-size: 1.15vw;
 }
