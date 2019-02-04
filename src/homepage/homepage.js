@@ -18,13 +18,17 @@ export default class Homepage extends Component {
             <div>
                 <NavbarTop />
                 <Video/>
-                <NavbarMid />
+                <div className='hp-nbm'>
+                <NavbarMid/>
+                </div>
+                <div>
                 <Gallery />
                 <Models />
                 <Trials/>
                 <Events/>
                 <Connected/>
                 <BaseMenu/>
+                </div>
             </div>
         )
     }

@@ -1,0 +1,16 @@
+.gallery{
+    background-color: black;
+    text-align: center;
+    margin-top: -3.4vh;
+}
+
+.gallery-h3{
+color: #ccc;
+padding-top: 10vh;
+}
+
+.gallery-h2{
+ color: #fff;
+ font-size: 3.5vw;
+ margin-top: -4vh;
+}

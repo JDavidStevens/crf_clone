@@ -1,7 +1,7 @@
 .top-nav{
     display: flex;
     width: 100%;
-    height: 15vh;
+    height: 15.1vh;
     background-color: #db202b;
 }
 
@@ -14,7 +14,7 @@
     margin: 3.7vh 0 0 1.32vw;
     display: flex;
     color: #fff;
-    font-family: Arial;
+    font-family: Helvetica;
     /* font-weight: 600; */
 }
 
@@ -29,18 +29,20 @@ li{
 }
 
 .nt-find-dealer-container{
+    height: 2.2vh;
+    width: 9.15vw;
     display: flex;
     border: solid #fff 1.25px;
-    padding: 1vh 2.5vw;
-    margin: -.6vh 0 3vh 1vw;
+    padding: 3vh 2.5vw;
+    margin: -.5vh 0 3vh 1.1vw;
     font-size: 13px;
 }
 
 .pin-drop{
     height: 5vh;
-    margin: .75vh .5vw;
+    margin: -1.25vh .5vw 0 0;
 }
 
 .find-dealer{
-    margin-top:2vh;
+    /* margin-top:2vh; */
 }

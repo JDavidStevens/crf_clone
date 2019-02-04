@@ -1,5 +1,6 @@
 import React, {Component} from 'react';
 import './nt.css';
+import logo from '../../assets/CRF Performance Line - Honda Powersports_files/honda-logo.png';
 
 
 export default class NavbarTop extends Component{
@@ -8,7 +9,7 @@ export default class NavbarTop extends Component{
 return(
     <div className='top-nav'>
         <div className='nt-logo'>
-            <img className='nt-img' src='https://powersports.honda.com/images/Adventure/honda-logo.png' alt="Honda"/>
+            <img className='nt-img' src={logo} alt="Honda"/>
         </div>
         <div className="nt-menu">
         <ul>
