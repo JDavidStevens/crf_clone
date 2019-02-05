@@ -2,6 +2,15 @@
 .video-page{
     text-align: center;
 }
+
+.video-wrapper{
+    height: 850px;
+    width: 100%;
+}
+
+.video{  
+    width: 100%;
+}
 .video-h3{
     color:#db202b;
     font-weight: 700;
