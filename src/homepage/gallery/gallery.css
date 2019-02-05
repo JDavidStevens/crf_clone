@@ -1,58 +1,98 @@
 .gallery{
     background-color: black;
     text-align: center;
-    margin-top: -3.4vh;
+    margin-top: -3vh;
+    padding-bottom: 18vh;
 }
 
 .gallery-h3{
-color: #ccc;
-padding-top: 10vh;
+color: #999;
+padding-top: 8vh;
 }
 
 .gallery-h2{
  color: #fff;
- font-size: 3.5vw;
- margin-top: -4vh;
+ font-size: 2.8vw;
+ margin-top: -3vh;
+ margin-bottom: 3vh;
 }
 
 .gallery-photos{
-    padding: 4px 4px;
+    color: white;
 }
 
-
+.CRF450RX-container{
+    margin: 0 59vw 70vh 11vw;
+}
 .CRF450RX{
-    width: 28.25%;
-    height: 237px;
-    margin: 0 .8vw 70vh 0;
-
+    width: 80%;
+    height: 252px;
 }
 
+.CRF450RX-title{
+   margin-top: -27px; 
+   margin-left: -276px;
+}
+.CRF250R-container{
+    margin: -104.4vh 0vw 0vh -0.1vw;
+}
 .CRF250R{
-    width: 28.25%;
-    margin: 0 .8vw 70vh 0;
+    width: 23.25%;
+    height: 253px;
+}
+.CRF250R-title{
+    margin-top: -27px; 
+    margin-left: -280px;
+ }
+
+.CRF450L-container{
+    margin: -37vh 0 69.6vh 47.7vw;
+
 }
 .CRF450L{
-    width: 28.75%;
-    height: 515px; 
-    margin-bottom: 22.1vh;
+    width: 45%;
+    height: 526px; 
 }
+.CRF450L-title{
+    margin-top: -27px; 
+    margin-left: -282px;
+ }
+.CRF250RX-container{
+    margin: -104.5vh 24.45vw 1.75vh .25vw;    
 
+}
 .CRF250RX{
-    width: 57.25%;
-    height: 270px;
-    margin: -70vh 29vw 26vh 0;    
+    width: 63.5%;
+    height: 255px;
 }
+.CRF250RX-title{
+    margin-top: -27px; 
+    margin-left: -645px;
+ }
+.CRF450X-container{
+    margin: 0 59vw 22.35vh 11vw;
 
+}
 .CRF450X{
-    width: 28.2%;
-    height: 262px;
-    margin: -25vh .8vw 75vh 0;
+    width: 81%;
+    height: 252px;
 }
+.CRF450X-title{
+    margin-top: -27px; 
+    margin-left: -285px;
+ }
+.CRF450RWE-container{
+    margin: -56.9vh 0 0 24vw;
 
-.CRF450RWE{
-    width: 58%;
-    margin: -25vh 0 75vh 0;
 }
+.CRF450RWE{
+    width: 62.5%;
+    height: 252px;
+}
+.CRF450RWE-title{
+    margin-top: -27px; 
+    margin-left: -625px;
+ }
 
 
 
