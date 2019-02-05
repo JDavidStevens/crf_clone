@@ -14,3 +14,46 @@ padding-top: 10vh;
  font-size: 3.5vw;
  margin-top: -4vh;
 }
+
+.gallery-photos{
+    padding: 4px 4px;
+}
+
+
+.CRF450RX{
+    width: 28.25%;
+    height: 237px;
+    margin: 0 .8vw 70vh 0;
+
+}
+
+.CRF250R{
+    width: 28.25%;
+    margin: 0 .8vw 70vh 0;
+}
+.CRF450L{
+    width: 28.75%;
+    height: 515px; 
+    margin-bottom: 22.1vh;
+}
+
+.CRF250RX{
+    width: 57.25%;
+    height: 270px;
+    margin: -70vh 29vw 26vh 0;    
+}
+
+.CRF450X{
+    width: 28.2%;
+    height: 262px;
+    margin: -25vh .8vw 75vh 0;
+}
+
+.CRF450RWE{
+    width: 58%;
+    margin: -25vh 0 75vh 0;
+}
+
+
+
+
