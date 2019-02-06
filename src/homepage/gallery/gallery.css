@@ -19,14 +19,26 @@ padding-top: 8vh;
 
 .gallery-photos{
     color: white;
+    overflow: hidden;
 }
 
 .CRF450RX-container{
-    margin: 0 59vw 70vh 11vw;
+    margin: 0 45vw 69vh 14vw;
+    width: 352px;
+    height: 230px;
+    overflow: hidden;
+    box-shadow: 0 0 8px 8px red inset;
 }
 .CRF450RX{
-    width: 80%;
-    height: 252px;
+    width: 352px;
+    height: 230px;
+    transition: all 1s ease;
+}
+
+.CRF450RX:hover{
+    overflow: hidden;
+    width: 375px;
+    height: 250px;
 }
 
 .CRF450RX-title{
@@ -94,6 +106,11 @@ padding-top: 8vh;
     margin-left: -625px;
  }
 
+ /* https://stackoverflow.com/questions/24709915/blur-the-edges-of-an-image-or-background-image-with-css
+ https://designshack.net/articles/css/joshuajohnson-2/
+ https://stackoverflow.com/questions/20295042/overflow-hidden-is-not-working-with-images
+ https://powersports.honda.com/offroad/competition.aspx?&cid=main_reprise/google/Brand_Dirt+Bike_Exact/Brand+-+Dirt+Bike/honda%20dirt%20bike&mkwid=sOazavq78|dc_pcrid_289910014023_pkw_honda%20dirt%20bike_pmt_e
+  */
 
 
 
