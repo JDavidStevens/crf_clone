@@ -4,7 +4,8 @@ import './homepage.css';
 import NavbarTop from './navbar_top/nt';
 import Video from './video/video';
 import NavbarMid from './navbar_mid/nm';
-import Gallery from './gallery/gallery';
+// import Gallery from './gallery/gallery';
+import Lineup from './lineup/lineup';
 import Models from './models/models';
 import Trials from './trials/trials';
 import Events from './events/events';
@@ -22,7 +23,8 @@ export default class Homepage extends Component {
                 <NavbarMid/>
                 </div>
                 <div>
-                <Gallery />
+                {/* <Gallery /> */}
+                <Lineup/>
                 <Models />
                 <Trials/>
                 <Events/>

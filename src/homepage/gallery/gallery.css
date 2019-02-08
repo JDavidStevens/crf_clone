@@ -27,24 +27,33 @@ padding-top: 8vh;
     width: 352px;
     height: 230px;
     overflow: hidden;
-    box-shadow: 0 0 8px 8px red inset;
 }
-.CRF450RX{
+/* .CRF450RX{
     width: 352px;
     height: 230px;
     transition: all 1s ease;
-}
+} */
 
-.CRF450RX:hover{
+
+.CRF450RX-image{
+    width:100%;
+    height: 100%;
+    background-image: url('../../assets/CRF Performance Line - Honda Powersports_files/Collective_CRF450RX_01.jpg');
+    background-position: center;
+    background-size: cover;
     overflow: hidden;
-    width: 375px;
-    height: 250px;
+    box-shadow: 0px -10px 20px 0 grey inset;
+    /* background-size: 352px 230px; */
+    /* margin-top: -27px;  */
+    /* margin-left: -276px; */
 }
-
-.CRF450RX-title{
-   margin-top: -27px; 
-   margin-left: -276px;
-}
+.CRF450RX-container:hover .CRF450RX-image{
+    transform: scale(1.2);
+    overflow: hidden;
+ /* width: 375px;
+    height: 250px; */
+ /* background-size: 375px 250px; */ 
+                                        }
 .CRF250R-container{
     margin: -104.4vh 0vw 0vh -0.1vw;
 }
@@ -58,13 +67,13 @@ padding-top: 8vh;
  }
 
 .CRF450L-container{
+    
     margin: -37vh 0 69.6vh 47.7vw;
 
 }
 .CRF450L{
     width: 45%;
-    height: 526px; 
-}
+    height: 526px; }
 .CRF450L-title{
     margin-top: -27px; 
     margin-left: -282px;

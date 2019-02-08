@@ -20,8 +20,11 @@ export default class Gallery extends Component {
                 <div className='gallery-photos'>
                     <div className='top-gallery'>
                         <div className='CRF450RX-container'>
-                            <img src={CRF450RX} alt="CRF450RX" className='CRF450RX' />
-                            <p className="CRF450RX-title">CRF450RX</p>
+                            <div className='CRF450RX-image'>
+                                <p className="CRF450RX-title">CRF450RX</p>
+                            </div>
+                            {/* <img src={CRF450RX} alt="CRF450RX" className='CRF450RX' /> */}
+                            <span className="CRF450RX-title">CRF450RX</span>
                         </div>
                         <div className='CRF250R-container'>
                             <img src={CRF250R} alt="CRF250R" className='CRF250R' />
