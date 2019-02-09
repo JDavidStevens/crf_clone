@@ -10,11 +10,11 @@ export default class Video extends Component{
             <ReactPlayer 
             className='video'
             url='https://player.vimeo.com/video/271191217?background=true' 
-            loop='true' 
-            playing='true' 
+            loop= {true} 
+            playing={true} 
             width='100%'
             height='100%'
-            controls='false'
+            controls={false}
             />
             </div>
             <div>
