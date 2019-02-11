@@ -1,0 +1,45 @@
+.connected{
+    background-color: #2e2e2e;
+    margin-top: -25.25px;
+    margin-bottom: 500px;
+    text-align: center;
+}
+
+.connected-title{
+    padding-top: 52px;
+    
+}
+.connected-h2{
+    color: #cb1200;font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: .005em;
+}
+
+.connected-p{
+    margin-top: -25px;
+    margin-bottom: 25px;
+    color: #ccc;
+}
+
+.connected-inputs-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    row-gap: 2.5vh;
+    column-gap: 1vw;
+    margin: 0 212px 50px 212px;
+}
+
+.connected-inputs{
+    height: 45px;
+    text-indent: 15px;
+    background-color: #212121;
+    border: none;
+    font-style: italic;
+    color: #ccc;
+}
+
+.connected-opt-submit-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr)
+}
