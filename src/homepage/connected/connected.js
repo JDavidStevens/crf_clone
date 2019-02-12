@@ -21,18 +21,20 @@ export default class Connected extends Component {
                     <h2 className='connected-h2'>STAY CONNECTED</h2>
                     <p className='connected-p'>Stay up-to-date on the latest news from the CRF Performance Line</p>
                 </div>
-                <div className='connected-inputs-container'>
-                    <input className='connected-inputs' placeholder='FIRST NAME' onChange={e => this.setState({ first: e.target.value })}></input>
-                    <input className='connected-inputs' placeholder='LAST NAME' onChange={e => this.setState({ last: e.target.value })}></input>
-                    <input className='connected-inputs' placeholder='EMAIL' onChange={e => this.setState({ email: e.target.value })}></input>
-                    <input className='connected-inputs' placeholder='ZIP CODE' onChange={e => this.setState({ zip: e.target.value })}></input>
-                </div>
-                <div className='connected-opt-submit-container'>
-                    <div className='connected-opt-in'></div>
-                    <div className='connected-submit'>
-                        <button>SUBMIT</button>
+                <form className='connected-inputs-container'>
+                    <input type='text' className='connected-inputs' placeholder='FIRST NAME' onChange={e => this.setState({ first: e.target.value })}/>
+                    <input type="text" className='connected-inputs' placeholder='LAST NAME' onChange={e => this.setState({ last: e.target.value })}/>
+                    <input type="text" className='connected-inputs' placeholder='EMAIL' onChange={e => this.setState({ email: e.target.value })}/>
+                    <input type="text" className='connected-inputs' placeholder='ZIP CODE' onChange={e => this.setState({ zip: e.target.value })}/>
+                    <div className='checkbox-wrapper'>
+                    <input type='checkbox' className='connected-checkbox'/>
+                    <span className='connected-span'>
+                    Opt-in for General News and Information from Honda
+                    </span>
                     </div>
-                </div>
+                    <input type='submit' value='SUBMIT' className='connected-button'/>
+                </form>
+                    
             </div>
         )
     }
