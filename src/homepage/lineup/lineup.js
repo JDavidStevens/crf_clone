@@ -4,7 +4,7 @@ import './lineup.css';
 export default class Lineup extends Component {
     render() {
         return (
-            <div className='lineup-wrapper'>
+            <div className='lineup-wrapper' id='gallery'>
                 <div>
                     <h3 className='lineup-h3'>The Honda CRF Performance Line</h3>
                     <h2 className='lineup-h2'>GALLERY</h2>

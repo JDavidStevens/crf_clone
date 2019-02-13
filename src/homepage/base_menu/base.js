@@ -54,6 +54,7 @@ export default class BaseMenu extends Component {
                     <img className='base8-icons' src='https://powersports.honda.com/images/Adventure/icons/social-icons.png' alt=''/>
                 </div>
                 </div>
+                <p className='base-disclaimer'>This site is for educational purposes only. It is not an offer to sell the products found herein.</p>
             </div>
         )
     }

@@ -1,6 +1,6 @@
 .base{
     background-color: #2e2e2e;
-    padding-bottom: 107px;
+    padding-bottom: 34.5px;
 }
 .base-grid{
     display: grid;
@@ -122,9 +122,13 @@ margin: 40px 25px 0 10px;
 }
 i{
   border: solid white;
-  border-width: 0 4px 2px 0;
+  border-width: 0 3px 3px 0;
   display: inline-block;
-  padding: 2px;  
+  padding: 3.5px;  
+  margin-top: 43px;
+  margin-left: -25px;
+  margin-bottom: 40px;
+
 }
 .arrow{
     transform: rotate(-45deg);
@@ -148,5 +152,9 @@ i{
 .page-end{
     width: 100%;
     background-color: #2e2e2e;
-
+}
+.base-disclaimer{
+    text-align: center;
+    color: #cb1200;
+    margin-top: 35px;
 }

@@ -6,7 +6,7 @@ export default class Events extends Component{
 
     render(){
 return(
-    <div className='events'>
+    <div className='events' id='upcoming-events'>
     <div className='events-bg'>
     <div className='events-overlay'>
     <h2 className='events-h2'>RACES AND EVENTS</h2>

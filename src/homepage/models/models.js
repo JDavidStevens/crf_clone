@@ -20,7 +20,7 @@ export default class Models extends Component {
 
     render() {
         return (
-            <div className='models-wrapper'>
+            <div className='models-wrapper' id='models'>
                 <div>
                     <h3 className="models-h3">There's a Honda for Every Winner.</h3>
                     <h2 className='models-h2'>CRF PERFORMANCE LINE</h2>
