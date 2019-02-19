@@ -13,10 +13,10 @@ return(
         </div>
         <div className="nt-menu">
         <ul>
-            <li>HOME</li>
-            <li>MODELS</li>
-            <li>CURRENT OFFERS</li>
-            <li>STAY CONNECTED</li>
+            <li><a href='#home'>HOME</a></li>
+            <li><a href='#models'>MODELS</a></li>
+            <li><a href='#upcoming-events' >CURRENT OFFERS</a></li>
+            <li><a href="#stay-connected">STAY CONNECTED</a></li>
         </ul>
         <div className="nt-find-dealer-container">
         <img className='pin-drop' src='https://powersports.honda.com/images/Adventure/icons/pin-light.png' alt=''/>

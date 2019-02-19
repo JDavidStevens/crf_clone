@@ -16,7 +16,7 @@ export default class Connected extends Component {
 
     render() {
         return (
-            <div className='connected'>
+            <div className='connected' id='stay-connected'>
                 <div className='connected-title'>
                     <h2 className='connected-h2'>STAY CONNECTED</h2>
                     <p className='connected-p'>Stay up-to-date on the latest news from the CRF Performance Line</p>

@@ -14,7 +14,7 @@ export default class Homepage extends Component {
 
     render() {
         return (
-            <div>
+            <div id='home'>
                 <NavbarTop />
                 <Video/>
                 <div className='hp-nbm'>
