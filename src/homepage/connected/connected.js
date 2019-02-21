@@ -28,9 +28,11 @@ export default class Connected extends Component {
                     <input type="text" className='connected-inputs' placeholder='ZIP CODE' onChange={e => this.setState({ zip: e.target.value })}/>
                     <div className='checkbox-wrapper'>
                     <input type='checkbox' className='connected-checkbox'/>
+                    <div className='connected-span-container'>
                     <span className='connected-span'>
                     Opt-in for General News and Information from Honda
                     </span>
+                    </div>
                     </div>
                     <input type='submit' value='SUBMIT' className='connected-button'/>
                 </form>

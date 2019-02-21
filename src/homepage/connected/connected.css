@@ -1,5 +1,85 @@
 .connected{
     background-color: #2e2e2e;
+    margin-top: -39px;
+    padding-bottom: 60px;
+    text-align: center;
+}
+
+.connected-title{
+    padding-top: 30px;
+    
+}
+.connected-h2{
+    color: #cb1200;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: .005em;
+}
+
+.connected-p{
+    margin-top: -25px;
+    margin-bottom: 32.5px;
+    color: #ccc;
+}
+
+.connected-inputs-container{
+    display: grid;
+    grid-template-columns: repeat(1,1fr); 
+    row-gap: 15px;
+    margin-left:20px;
+}
+
+.connected-inputs{
+    height: 47px;
+    width:335px;
+    text-indent: 19px;
+    background-color: #212121;
+    border: none;
+    font-size: 12px;
+    font-style: italic;
+    color: #ccc;
+}
+.checkbox-wrapper{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    margin-top: 10px;
+    margin-left: -20px;
+
+}
+.connected-checkbox{
+    appearance: none;
+    background-color: #212121;
+    width: 29px;
+    height: 29px;
+    margin-top:9px;
+    margin-left: 20px;
+}
+
+.connected-span-container{
+    text-align: initial;
+    grid-column-start: 2;
+    grid-column-end:7;
+}
+.connected-span{
+    color: #ccc;
+}
+.connected-button{
+    border: none;
+    background-color: #cb1200;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: capitalize;
+    height: 60px;
+    width: 215px;
+    margin-top: 31px;
+    margin-left: 60px;
+}
+@media(min-width:700px){
+.connected{
+    background-color: #2e2e2e;
     margin-top: -22px;
     padding-bottom: 15.5px;
     text-align: center;
@@ -63,4 +143,73 @@
     width: 208px;
     margin-top: 31px;
     margin-left: 335px;
+}
+}
+@media(min-width:800px){
+.connected{
+    background-color: #2e2e2e;
+    margin-top: -22px;
+    padding-bottom: 15.5px;
+    text-align: center;
+}
+
+.connected-title{
+    padding-top: 52px;
+    
+}
+.connected-h2{
+    color: #cb1200;font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: .005em;
+}
+
+.connected-p{
+    margin-top: -25px;
+    margin-bottom: 32.5px;
+    color: #ccc;
+}
+
+.connected-inputs-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr); 
+    row-gap: 2.15vh;
+    column-gap: 1.35vw;
+    margin: 0 215px 50px 215px;
+}
+
+.connected-inputs{
+    height: 47px;
+    text-indent: 19px;
+    background-color: #212121;
+    border: none;
+    font-size: 12px;
+    font-style: italic;
+    color: #ccc;
+}
+.connected-checkbox{
+    appearance: none;
+    background-color: #212121;
+    padding: 15px;
+    margin: 30px 15px -12px -25px;
+}
+
+.connected-span{
+    margin-right: 80px;
+    color: #ccc;
+    
+}
+.connected-button{
+    border: none;
+    background-color: #cb1200;
+    color: #fff;
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 17px;
+    text-transform: capitalize;
+    height: 60px;
+    width: 208px;
+    margin-top: 31px;
+    margin-left: 335px;
+}
 }
