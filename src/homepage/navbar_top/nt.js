@@ -11,7 +11,7 @@ return(
         <div className='nt-logo'>
             <img className='nt-img' src={logo} alt="Honda"/>
         </div>
-        <div className="nt-menu">
+        {/* <div className="nt-menu">
         <ul>
             <li><a href='#home'>HOME</a></li>
             <li><a href='#models'>MODELS</a></li>
@@ -22,7 +22,7 @@ return(
         <img className='pin-drop' src='https://powersports.honda.com/images/Adventure/icons/pin-light.png' alt=''/>
             <span className="find-dealer">FIND DEALER</span>
         </div>
-        </div>
+        </div> */}
     </div>
 )
     }
