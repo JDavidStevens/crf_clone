@@ -54,6 +54,7 @@ margin-bottom: 70px;
 }
 
 .events-overlay{
+    border:none;
     text-align: center;
     margin-top: 299px;
     font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
