@@ -1,0 +1,60 @@
+.nt-drop-down{
+    position: absolute;
+    height: 375px;
+    width: 100%;
+    background-color: #db202b;
+    z-index: 1;
+}
+.ntdd-dealer-container{
+    width: 100%;
+    height: 50px;
+    border-top: solid 1px #bd1d23;
+}
+.ntdd-dealer{
+    border: solid 1px #fff;
+    width: 182px;
+    height: 90%;
+    margin: 10px 0 0 96px;
+    color: #fff;
+    text-align: center;
+}
+.ntdd-pin-drop{
+    height: 3.7vh;
+    margin: 10px 5px -8px 0;
+}
+.ntdd-span{
+    font-size: 13px;
+}
+.ntdd-menu{
+    margin-left: -40px;
+    display: grid;
+    background-image: url('https://powersports.honda.com/images/Adventure/bg/bg-stripe-tile.jpg');
+
+}
+.ntdd-menu-item{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-auto-rows: 75px;
+    border-top: solid 1px #bd1d23;
+}
+.ntdd-li{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    margin: 27.5px 0 0 50.5px;
+}
+.ntdd-a{
+    color: #fff;    
+}
+.ntdd-i{
+    border: solid white;
+  border-width: 0 4px 4px 0;
+  display: inline-block;
+  padding: 4px;  
+  margin-top: 30px;
+  margin-left: 95px;
+  margin-right: 53px;
+  margin-bottom: 35px;
+}
+.ntdd-arrow{
+    transform: rotate(-45deg);
+}

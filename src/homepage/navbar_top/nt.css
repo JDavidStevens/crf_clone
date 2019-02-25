@@ -1,26 +1,55 @@
 .top-nav{
     display: flex;
     width: 100%;
-    height: 9vh;
+    height: 60px;
     background-image: url('https://powersports.honda.com/images/Adventure/bg/bg-stripe-tile.jpg');
 }
 .nt-logo{
-    width: 49%;
+    width: 183.89px;
     height: 100%;
-    /* padding: 10px 20px 10px 20px; */
-    margin-left: 4.3vw;
-    background-color: royalblue;
-    /* background-color: #db202b; */
-}
-.nt-img{
-    margin-top: 15px;
-    margin-left: 20px;
-    width: 75%;
-    height: 39%;
+    margin-left: 15.5px;
+    background-color: #db202b;
     border-right: 0.35px solid rgba(0, 0, 0, 0.245);
     border-left: 0.35px solid rgba(0, 0, 0, 0.245);
 }
-
+.nt-img{
+    margin-top: 16.5px;
+    margin-left: 23.75px;
+    width: 134.55px;
+    height: 22.5px;
+}
+.hamburger-wrapper{
+    height: 100%;
+    width:63px;
+    border: solid #bd1d23;
+    border-width: 0 1px;
+    margin-left: 95px;
+}
+.hamburger{
+    width: 32px;
+    height: 40%;
+    background-image: url("https://powersports.honda.com/images/Adventure/icons/hamburger-light.png");
+    background-size: 32px;
+    margin-top: 18px;
+    margin-left: 15px;
+}
+.hamburger-wrapper-active{
+    height: 100%;
+    width:63px;
+    border: solid #bd1d23;
+    border-width: 0 1px;
+    margin-left: 95px;
+}
+.hamburger-active{
+    width: 32px;
+    height: 40%;
+    transform: rotate(90deg);
+    background-image: url("https://powersports.honda.com/images/Adventure/icons/hamburger-light.png");
+    background-size: 32px;
+    margin-top: 18px;
+    margin-left: 15px;
+    transform: rotate(90deg);
+}
 .nt-menu{
     margin: 2.8vh 0 0 -1.9vw;
     display: flex;

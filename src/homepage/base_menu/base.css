@@ -143,7 +143,7 @@ margin: 40px 25px 0 10px;
     color: #ccc;
 }
 
-i{
+.base-i{
   border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -301,7 +301,7 @@ margin: 40px 25px 0 10px;
     text-indent:29px;
     color: #ccc;
 }
-i{
+.base-i{
   border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;
@@ -464,7 +464,7 @@ margin: 40px 25px 0 10px;
     text-indent:29px;
     color: #ccc;
 }
-i{
+.base-i{
   border: solid white;
   border-width: 0 3px 3px 0;
   display: inline-block;

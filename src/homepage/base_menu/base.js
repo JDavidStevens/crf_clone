@@ -33,7 +33,7 @@ export default class BaseMenu extends Component {
                                 </div>
                                 <div className='mobile-arrow-input'>
                                     <input className='mobile-input' placeholder="ENTER ZIP CODE" />
-                                    <i className='mobile-arrow'></i>
+                                    <i className='base-i mobile-arrow'></i>
                                 </div>
                             </div>
                             <div className='mobile-social-wrapper '>
@@ -88,7 +88,7 @@ export default class BaseMenu extends Component {
                                         <img className='base7-pindrop' src="https://powersports.honda.com/images/Adventure/icons/pin-red.png" alt="pindrop" />
                                         <h3 className='base7-h3'>FIND A DEALER</h3>
                                         <input className='base7-input' placeholder="ENTER ZIP CODE" />
-                                        <i className='arrow'></i>
+                                        <i className='base-i arrow'></i>
                                     </div>
                                 </div>
                                 <div className='base8'>
