@@ -35,7 +35,13 @@ handleDotMenu(){
                 <img className='dots' src='https://powersports.honda.com/images/Adventure/icons/subnav-icon.png' alt=''/>
                 </div>
             </div>
-            <DotMenu/>
+            <div className='dot-dd'>
+          <ul className='dot-dd-ul'>
+              <a className='dot-dd-a' href='#gallery'><li className='dot-dd-li' onClick={()=>{this.handleDotMenu()}}>GALLERY</li></a>
+              <a className='dot-dd-a' href='#models'><li className='dot-dd-li' onClick={()=>{this.handleDotMenu()}}>MODELS</li></a>
+              <a className='dot-dd-a' href='#upcoming-events'><li className='dot-dd-li' onClick={()=>{this.handleDotMenu()}}>UPCOMING EVENTS</li></a>
+          </ul>  
+        </div>
             </div>
         }
             </div>

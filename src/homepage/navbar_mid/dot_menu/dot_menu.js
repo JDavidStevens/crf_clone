@@ -5,9 +5,9 @@ export default function DotMenu(){
     return(
         <div className='dot-dd'>
           <ul>
-              <a><li></li></a>
-              <a><li></li></a>
-              <a><li></li></a>
+              <a href='#gallery'><li>GALLERY</li></a>
+              <a href='#models'><li>MODELS</li></a>
+              <a href='#upcoming-events'><li>UPCOMING EVENTS</li></a>
           </ul>  
         </div>
     )
