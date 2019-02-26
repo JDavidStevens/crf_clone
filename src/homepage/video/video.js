@@ -8,7 +8,7 @@ export default class Video extends Component {
     render() {
         return (
             <div className="video-page">
-                <Media query="(max-width:799px)"
+                <Media query="(max-width:699px)"
                 render={()=>
                 <div className='performance-line-wrapper'>
                     <img className='performance-line-image'  
@@ -17,7 +17,7 @@ export default class Video extends Component {
                 </div>
                 }/>
                 <Media
-                    query="(min-width:800px)"
+                    query="(min-width:700px)"
                     render={() =>
                         <div className='video-wrapper'>
                             <ReactPlayer

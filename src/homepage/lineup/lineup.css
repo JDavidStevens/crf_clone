@@ -220,23 +220,25 @@
 
 .lineup-h3{
     color: #999;
-    padding-top: 7.5vh;
+    padding-top: 60px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
 }
     
 .lineup-h2{
      color: #fff;
-     font-size: 2.8vw;
-     margin-top: -3vh;
-     margin-bottom: 3.15vh;
+     font-size: 40px;
+     margin-bottom: 26px;
 }
 
 .image-wrapper{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: repeat(2,1fr);
     grid-auto-rows: 267px;
-    column-gap: .75vw;
-    row-gap: .75vw;
-    padding: 0 215px 130px 215px;
+    column-gap: 1.75vw;
+    row-gap: 1.75vh;
+    padding: 0 42px 133px 42px;
 }
 
 .CRF450RX-container{
@@ -267,15 +269,6 @@
     bottom: 6px;
     left: 8px; 
 }
-.CRF450RX-container:hover .CRF450RX-bg{
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-    box-shadow: 0 -75px 100px -20px black inset;    
-}
-
 .CRF250R-container{
     grid-column-start: 2;
     grid-column-end: 3;
@@ -306,19 +299,10 @@
     bottom: 6px;
     left: 8px; 
 }
-.CRF250R-container:hover .CRF250R-bg{
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-    box-shadow: 0 -75px 100px -20px black inset;    
-}
-
 .CRF450L-container{
-    grid-column-start: 3;
-    grid-column-end: 4;
-    grid-row-start: 1;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
     grid-row-end: 3;
     overflow: hidden;
     position: relative;
@@ -344,18 +328,9 @@
     bottom: 6px;
     left: 8px; 
 }
-.CRF450L-container:hover .CRF450L-bg{
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-    box-shadow: 0 -75px 100px -20px black inset;    
-}
-
 .CRF250RX-container{
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 2;
     grid-row-start: 2;
     grid-row-end: 3;
     overflow: hidden;
@@ -383,15 +358,6 @@
     bottom: 6px;
     left: 8px; 
 }
-.CRF250RX-container:hover .CRF250RX-bg{
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-    box-shadow: 0 -75px 100px -20px black inset;    
-}
-
 .CRF450X-container{
     grid-column-start: 1;
     grid-column-end: 2;
@@ -421,16 +387,6 @@
     bottom: 6px;
     left: 8px; 
 }
-.CRF450X-container:hover .CRF450X-bg{
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-    box-shadow: 0 -75px 100px -20px black inset; 
-}
-
-
 .CRF450RWE-container{
     grid-column-start: 2;
     grid-column-end: 4;
@@ -442,7 +398,7 @@
 .CRF450RWE-bg{
     width: 100%;
     height: 100%;
-    background-image: url('../../assets/CRF Performance Line - Honda Powersports_files/Collective_CRF450RWE_06.jpg');
+    background-image: url('../../assets/CRF Performance Line - Honda Powersports_files/450RWE-mobile.jpg');
     background-position: center; 
     background-size: cover;
     -webkit-transition: all .5s;
@@ -459,14 +415,6 @@
     position: absolute;
     bottom: 6px;
     left: 8px; 
-}
-.CRF450RWE-container:hover .CRF450RWE-bg{
-    -ms-transform: scale(1.2);
-    -moz-transform: scale(1.2);
-    -webkit-transform: scale(1.2);
-    -o-transform: scale(1.2);
-    transform: scale(1.2);
-    box-shadow: 0 -75px 100px -20px black inset;    
 }
 }
 @media(min-width: 800px){

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './nm.css';
 import Media from 'react-media';
-import DotMenu from './dot_menu/dot_menu';
 
 
 export default class NavbarMid extends Component {

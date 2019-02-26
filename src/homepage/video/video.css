@@ -20,7 +20,7 @@
 }
 
 .video-h2{
-   font-family: Helvetica;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-weight: 800; 
    font-size: 30px;
    margin-top: -3vh;
@@ -53,48 +53,48 @@
 }
 
 @media(min-width:700px){
-.video-page{
-    text-align: center;
-}
-
-.performance-line-wrapper{
-    height: 150px;
-    width: 100%;
-    padding-bottom: 4vh;
-}
-
-.performance-line-image{  
-    width: 100%;
-}
-.video-h3{
-    color:#db202b;
-    font-weight: 700;
-    font-size: 25.25px;
-}
-
-.video-h2{
-   font-family: Helvetica;
-   font-weight: 800; 
-   font-size: 40px;
-   margin-top: -3.5vh;
-   line-height: 1.1;
-}
-.video-paragraph{
-    color: #666;
-    margin: -1.5vh 13.5vw -1vh 13.5vw;
-}
-
-.video-button{
-    width: 19.5vw;
-    height: 8.25vh;
-    border: none;
-    margin-top: 7.5vh;
-    background-color: #cb1200;
-    color: #fff;
-    font-weight: 600;
-    font-family: Helvetica;
-    font-size: 1vw;
-}
+    .video-page{
+        text-align: center;
+    }
+    
+    .video-wrapper{
+        height: 431px;
+        width: 100%;
+        padding-bottom: 68px;
+    }
+    
+    .video{  
+        width: 100%;
+    }
+    .video-h3{
+        color:#db202b;
+        font-weight: 700;
+        font-size: 25.25px;
+    }
+    
+    .video-h2{
+        font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+       font-weight: 800; 
+       font-size: 40px;
+       margin-top: -24px;
+       line-height: 1.1;
+    }
+    .video-paragraph{
+        color: #666;
+        margin: -1.4vh 3.8vw -1vh 3.8vw;
+    }
+    
+    .video-button{
+        width: 298px;
+        height: 65px;
+        border: none;
+        margin-top: 5.5vh;
+        background-color: #cb1200;
+        color: #fff;
+        font-weight: 600;
+        font-family: Helvetica;
+        font-size: 1vw;
+    }
 }
 
 @media(min-width:800px){
@@ -118,7 +118,7 @@
 }
 
 .video-h2{
-   font-family: Helvetica;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
    font-weight: 800; 
    font-size: 40px;
    margin-top: -3.5vh;
