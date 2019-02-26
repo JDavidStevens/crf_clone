@@ -7,51 +7,127 @@
   display: grid;
   grid-template-columns: repeat(12)
 }
-
-.nm-ul{
-    padding: 0 8.35vw 0 14.25vw;
+.dot-box{
+  width:45px;
+  height: 45px;
+  background-color: #fff;
+  margin: 22px 0 0 15px;
 }
-
-
-.gallery-link{
-  margin-top: 15.35px;
-  /* margin-bottom: -10px; */
-  /* background-color: white; */
+.dots{
+  height: 25px;
+  margin: 10px 19px;
 }
-
-.nm-li{
-    font-size: 15px;
+@media(min-width: 700px){
+  .nm{
+    width: 100%;
+    height: 90px;
+    background-color: #ccc;  
+    margin-top: 8.5vh;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: repeat(12)
+  }
+  
+  .nm-ul{
+      padding: 0 8.35vw 0 14.25vw;
+  }
+  
+  
+  .gallery-link{
+    margin-top: 15.35px;
+  }
+  
+  .nm-li{
+      font-size: 15px;
+      font-weight: 600;
+      padding: 0 1vw 0 1vw;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
     font-weight: 600;
-    padding: 0 1vw 0 1vw;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  div.lineup-wrapper a.gallery-a, #models a.models-a, #upcoming-events a.events-a {
+    color: #cb1200;
+  }
+  
+  .gallery-link:hover a{
+    color: #cb1200;
+  }
+  
+  hr{
+    border: none;
+  }
+  .gallery-link:hover hr{
+    border: solid #cb1200 3px;
+    width: 100px;
+    margin-bottom: -26px;
+    margin-top: 33.5px;
+  }
+  .gallery-link:hover .hr-long{
+    border: solid #cb1200 3px;
+    width: 155px;
+    margin-bottom: -26px;
+    margin-top: 33.5px;
+  }
 }
-a{
-  text-decoration: none;
-  color: #000;
-  font-size: 13px;
-  font-weight: 600;
-  font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-div.lineup-wrapper a.gallery-a, #models a.models-a, #upcoming-events a.events-a {
-  color: #cb1200;
-}
-
-.gallery-link:hover a{
-  color: #cb1200;
-}
-
-hr{
-  border: none;
-}
-.gallery-link:hover hr{
-  border: solid #cb1200 3px;
-  width: 100px;
-  margin-bottom: -26px;
-  margin-top: 33.5px;
-}
-.gallery-link:hover .hr-long{
-  border: solid #cb1200 3px;
-  width: 155px;
-  margin-bottom: -26px;
-  margin-top: 33.5px;
+@media(min-width: 800px){
+  .nm{
+    width: 100%;
+    height: 90px;
+    background-color: #ccc;  
+    margin-top: 8.5vh;
+    z-index: -1;
+    display: grid;
+    grid-template-columns: repeat(12)
+  }
+  
+  .nm-ul{
+      padding: 0 8.35vw 0 14.25vw;
+  }
+  
+  
+  .gallery-link{
+    margin-top: 15.35px;
+  }
+  
+  .nm-li{
+      font-size: 15px;
+      font-weight: 600;
+      padding: 0 1vw 0 1vw;
+  }
+  a{
+    text-decoration: none;
+    color: #000;
+    font-size: 13px;
+    font-weight: 600;
+    font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  }
+  
+  div.lineup-wrapper a.gallery-a, #models a.models-a, #upcoming-events a.events-a {
+    color: #cb1200;
+  }
+  
+  .gallery-link:hover a{
+    color: #cb1200;
+  }
+  
+  hr{
+    border: none;
+  }
+  .gallery-link:hover hr{
+    border: solid #cb1200 3px;
+    width: 100px;
+    margin-bottom: -26px;
+    margin-top: 33.5px;
+  }
+  .gallery-link:hover .hr-long{
+    border: solid #cb1200 3px;
+    width: 155px;
+    margin-bottom: -26px;
+    margin-top: 33.5px;
+  }
 }
