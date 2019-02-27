@@ -182,11 +182,12 @@
     grid-template-columns: repeat(2,1fr); 
     row-gap: 2.15vh;
     column-gap: 1.35vw;
-    margin: 0 215px 50px 215px;
+    margin: 0 210px 50px 215px;
 }
 
 .connected-inputs{
     height: 47px;
+    width: 535px;
     text-indent: 19px;
     background-color: #212121;
     border: none;
@@ -194,16 +195,27 @@
     font-style: italic;
     color: #ccc;
 }
+
+.checkbox-wrapper{
+    display: flex;
+    margin-top: 15px;
+    width: 150%;
+}
 .connected-checkbox{
     appearance: none;
     background-color: #212121;
-    padding: 15px;
-    margin: 30px 15px -12px -25px;
+    margin: 17px 0px 0px 21px;
 }
 
+.connected-span-container{
+    text-align: initial;
+    padding-top: 18px;
+}
 .connected-span{
-    margin-right: 80px;
+    margin-right: 0px;
+    margin-left: 15px;
     color: #ccc;
+    font-size: 16px;
     
 }
 .connected-button{
@@ -216,7 +228,7 @@
     text-transform: capitalize;
     height: 60px;
     width: 208px;
-    margin-top: 31px;
-    margin-left: 335px;
+    margin-top: 26px;
+    margin-left: 323px;
 }
 }

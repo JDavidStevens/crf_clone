@@ -19,7 +19,6 @@
      font-weight: 800;
      margin-top: -15px;
      margin-bottom: 18px;
-     /* margin: -15px 40px 17px 40px;  */
 }
 
 .cards-wrapper{
@@ -27,7 +26,6 @@
     grid-template-columns: repeat(1,1fr);
     grid-auto-rows: 485px;
     row-gap: 30px;
-    /* padding: 0 210px 0px 210px; */
 }
 
 .card{
@@ -178,7 +176,7 @@
     background-color: #f4f4f4;
     text-align: center;
     margin-top: -2.51vh;
-    padding-bottom: 12.5vh;
+    padding: 0 0 12.5vh 0;
 }
 .models-h3{
     color: #666;
@@ -192,7 +190,7 @@
      font-family: "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
      font-size: 40px;
      font-weight: 800;
-     margin-top: -23px;
+     margin-top: -15px;
      margin-bottom: 17px;
 }
 
@@ -233,7 +231,7 @@
 .card-buttons{
     display: grid;
     row-gap: 2.1vh;
-    margin: 4.9vh 1.9vw 0 1.9vw; 
+    margin: 0 2vw; 
 }
 .model-select-button{
     height: 60px;
