@@ -80,13 +80,12 @@
 @media(min-width:700px){
 .connected{
     background-color: #2e2e2e;
-    margin-top: -22px;
     padding-bottom: 15.5px;
     text-align: center;
 }
 
 .connected-title{
-    padding-top: 52px;
+    padding-top: 72px;
     
 }
 .connected-h2{
@@ -98,16 +97,16 @@
 
 .connected-p{
     margin-top: -25px;
-    margin-bottom: 32.5px;
+    margin-bottom: 30px;
     color: #ccc;
 }
 
 .connected-inputs-container{
     display: grid;
     grid-template-columns: repeat(2,1fr); 
-    row-gap: 2.15vh;
-    column-gap: 1.35vw;
-    margin: 0 215px 50px 215px;
+    row-gap: 1.4vh;
+    column-gap: 2.75vw;
+    margin: 0 40px 50px 40px;
 }
 
 .connected-inputs{
@@ -119,17 +118,25 @@
     font-style: italic;
     color: #ccc;
 }
+.checkbox-wrapper{
+    display: grid;
+    margin-top: 15px;
+    width: 150%;
+}
 .connected-checkbox{
     appearance: none;
     background-color: #212121;
     padding: 15px;
-    margin: 30px 15px -12px -25px;
 }
-
+.connected-span-container{
+    text-align: initial;
+    grid-column-start: 2;
+    grid-column-end:7;
+    padding-top: 10px;
+}
 .connected-span{
-    margin-right: 80px;
     color: #ccc;
-    
+    margin-left: -15px;
 }
 .connected-button{
     border: none;
@@ -141,8 +148,8 @@
     text-transform: capitalize;
     height: 60px;
     width: 208px;
-    margin-top: 31px;
-    margin-left: 335px;
+    margin-top: 20px;
+    margin-left: 125px;
 }
 }
 @media(min-width:800px){
