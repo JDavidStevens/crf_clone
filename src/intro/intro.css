@@ -1,0 +1,19 @@
+.intro{
+    background-color: #000;
+    height: 721px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro-p{
+    text-align: center;
+    color: #999;
+}
+.enter{
+    align-items: center;
+    height: 35px;
+    width: 65px;
+    background-color: #cb1200;
+    text-decoration: none;
+}
