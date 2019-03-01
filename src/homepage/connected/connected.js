@@ -10,11 +10,19 @@ export default class Connected extends Component {
             first: '',
             last: '',
             email: '',
-            zip: ''
+            zip: '',
+            checkmark: false
         }
     }
-
+    handleCheckmark(){
+        this.setState({checkmark:!this.state.checkmark})
+    }
+    handleReset(){
+        this.setState({first:'',last:'',email:'',zip:'',checkmark:false})
+    }
     render() {
+        // console.log('state',this.state.first,this.state.last,this.state.email,this.state.zip)
+        console.log('check',this.state.checkmark)
         return (
             <div className='connected' id='stay-connected'>
                 <div className='connected-title'>
@@ -27,14 +35,16 @@ export default class Connected extends Component {
                     <input type="text" className='connected-inputs' placeholder='EMAIL' onChange={e => this.setState({ email: e.target.value })}/>
                     <input type="text" className='connected-inputs' placeholder='ZIP CODE' onChange={e => this.setState({ zip: e.target.value })}/>
                     <div className='checkbox-wrapper'>
-                    <input type='checkbox' className='connected-checkbox'/>
+                    <input type='checkbox' className='connected-checkbox' onClick={()=>this.handleCheckmark()}/>
+                    {!this.state.checkmark?null:
+                    <i className='connected-i checkmark' onClick={()=>this.handleCheckmark()}></i>}
                     <div className='connected-span-container'>
                     <span className='connected-span'>
                     Opt-in for General News and Information from Honda
                     </span>
                     </div>
                     </div>
-                    <input type='submit' value='SUBMIT' className='connected-button'/>
+                    <input type='reset' value="SUBMIT" className='connected-button' onClick={()=>this.handleReset()}/>
                 </form>
                     
             </div>

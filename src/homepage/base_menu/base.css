@@ -368,76 +368,71 @@ margin: 40px 25px 0 10px;
 }
 .base-grid{
     display: grid;
-    grid-template-columns: repeat(6, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-auto-rows: 54.5px;
+    grid-auto-columns: 25px;
     background-image: url('https://powersports.honda.com/images/Adventure/bg/bg-stripe-tile-gray.jpg');
 }
 
-.base1{
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 6;
-    border-right: 1px solid #2e2e2e;
-    padding-right: 176px;
-}
 
 .base2{
     text-overflow: initial;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-bottom: -10px;
+    border-left: 1px solid #2e2e2e;
+    border-right: 1px solid #2e2e2e;
+    padding-right: 33.5px;
+    margin-left: 210px;
+}
+.base3{
     grid-column-start: 2;
     grid-column-end: 3;
     grid-row-start: 1;
     grid-row-end: 4;
     margin-bottom: -10px;
     border-right: 1px solid #2e2e2e;
+    padding-right: 33.5px;
 }
-.base3{
+.base4{
     grid-column-start: 3;
     grid-column-end: 4;
     grid-row-start: 1;
     grid-row-end: 4;
     margin-bottom: -10px;
+    padding-right: 33.5px;
     border-right: 1px solid #2e2e2e
 }
-.base4{
+.base5{
     grid-column-start: 4;
     grid-column-end: 5;
     grid-row-start: 1;
     grid-row-end: 4;
+    padding-right: 33.5px;
+    border-right: 1px solid #2e2e2e;
     margin-bottom: -10px;
-    border-right: 1px solid #2e2e2e
-}
-.base5{
-    grid-column-start: 5;
-    grid-column-end: 6;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    margin-bottom: -10px;
-}
-.base6{
-    grid-column-start: 6;
-    grid-column-end: 7;
-    grid-row-start: 1;
-    grid-row-end: 6;
-    border-left: 1px solid #2e2e2e;
-    padding-left: 176px;
 }
 .base7{
-    grid-column-start: 2;
-    grid-column-end: 4;
+    grid-column-start: 1;
+    grid-column-end: 3;
     grid-row-start: 4;
     grid-row-end: 6;
     margin-top:10px;
     border-right: 1px solid #2e2e2e;
+    border-left: 1px solid #2e2e2e;
     border-top: 1px solid #2e2e2e;
+    margin-left: 210px;
 }
 .base8{
-    grid-column-start: 4;
-    grid-column-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 5;
     grid-row-start: 4;
     grid-row-end: 6;
     margin-top:10px;
     border-top: 1px solid #2e2e2e;
+    border-right: 1px solid #2e2e2e;
 }
 
 .base-ul{
@@ -450,7 +445,7 @@ margin: 40px 25px 0 10px;
     color: #f4f4f4;
     font-family:  "Gotham SSm A", "Gotham SSm B", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 15px;
-    margin: 5px 0 20px 0;
+    margin: 5px 0 20px -6px;
 }
 
 .base-ul2{

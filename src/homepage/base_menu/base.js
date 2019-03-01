@@ -50,7 +50,6 @@ export default class BaseMenu extends Component {
                     render={() =>
                         <div>
                             <div className='base-grid'>
-                                <div className='base1'></div>
                                 <div className='base2'>
                                     <ul className='base-ul'>
                                         <li className='base-li'>ABOUT POWERSPORTS</li>
@@ -82,7 +81,6 @@ export default class BaseMenu extends Component {
                                         <li className='base-li'>SITE MAP</li>
                                     </ul>
                                 </div>
-                                <div className='base6'></div>
                                 <div className='base7'>
                                     <div className='base7-content'>
                                         <img className='base7-pindrop' src="https://powersports.honda.com/images/Adventure/icons/pin-red.png" alt="pindrop" />

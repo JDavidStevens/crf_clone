@@ -24,12 +24,13 @@
 }
 .ntdd-span{
     font-size: 13px;
+    
 }
 .ntdd-menu{
     margin-left: -40px;
     display: grid;
     background-image: url('https://powersports.honda.com/images/Adventure/bg/bg-stripe-tile.jpg');
-
+    
 }
 .ntdd-menu-item{
     display: grid;
@@ -43,6 +44,7 @@
     margin: 27.5px 0 0 50.5px;
 }
 .ntdd-a{
+    text-decoration: none;
     color: #fff;    
 }
 .ntdd-i{
