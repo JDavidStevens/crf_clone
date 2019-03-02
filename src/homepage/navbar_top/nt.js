@@ -57,7 +57,7 @@ return(
         </div>
         <div className="nt-menu">
         <ul>
-            <li><a className='a-nt' href='#home'>HOME</a></li>
+            <li><a className='a-nt' href='#gallery'>GALLERY</a></li>
             <li><a className='a-nt' href='#models'>MODELS</a></li>
             <li><a className='a-nt' href='#upcoming-events' >CURRENT OFFERS</a></li>
             <li><a className='a-nt' href="#stay-connected">STAY CONNECTED</a></li>
